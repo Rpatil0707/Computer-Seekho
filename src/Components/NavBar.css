@@ -1,0 +1,128 @@
+
+
+
+
+table{
+    font-size: 1.1rem;
+    box-shadow: 0 5px 10px skyblue;
+    background-color:white;
+}
+td a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+td b{
+   
+    padding:0.1rem 1rem;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+.schedule{
+    border-radius: 10px;
+    background-color:rgb(245, 233, 218);
+    padding:0.2rem 1rem;
+    text-align:center;
+}
+
+.nav-link{
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px 25px !important;
+    color: #ff4321 !important;
+}
+
+.nav-link:hover{
+    background-color: #ff4321;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px 25px !important;
+    color: #fff !important;
+}
+
+.navlink-btn{
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: #ff4321;
+}
+
+.navlink-btn:hover{
+    background-color: #ff4321;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.dropdown-menu{
+    height: auto;
+    min-width: 79% !important;
+    border-radius: 0px !important;
+    margin-left: 19px;
+    margin-top: -15px !important;
+}
+
+
+@media screen and (max-width:1390px) {
+    .navlink-btn{
+        background-color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        color: #ff4321;
+        font-weight: 600;
+    }
+    
+    .navlink-btn:hover{
+        background-color: #ff4321;
+        text-decoration: none;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .nav-link{
+        background-color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 5px 25px !important;
+        color: #ff4321 !important;
+        font-weight: 600;
+    }
+    
+    .nav-link:hover{
+        background-color: #ff4321;
+        text-decoration: none;
+        text-align: center;
+        margin: 20px 10px 20px 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 5px 25px !important;
+        color: #fff !important;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,15 @@
+.Enque_card{
+    margin: 50px 450px;
+   
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+} 
+.Enque_card_body{
+    padding: 40px;
+}
+
+.fso-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap:30px ;
+}

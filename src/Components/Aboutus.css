@@ -1,0 +1,45 @@
+.Abtus{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    margin: 20px 200px;
+    grid-gap: 0px 50px;
+}
+
+.aboutimage{
+    transition: all 0.9s ease-in-out;
+    height: 250px;
+    width: 450px;
+
+}
+.aboutimage:hover{
+
+    transform:scale(1.2) ;
+}
+
+.aboutus-text{
+    margin: 40px 200px 100px 200px;
+}
+
+
+@media screen and (max-width:1190px) {
+    .Abtus{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        margin: 20px 100px;
+        grid-gap: 0px 50px;
+    }
+
+    .aboutus-text{
+        margin: 40px 100px 100px 100px;
+    }
+
+    .aboutimage{
+        height: 250px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+}
+  
+ 

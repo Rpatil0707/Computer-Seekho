@@ -1,0 +1,8 @@
+.std-button{
+    margin-top:10px;
+    background-color:black !important;
+    border-radius: 20px !important;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}

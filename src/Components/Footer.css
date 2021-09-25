@@ -1,0 +1,98 @@
+
+.footer-head{
+    background-color: black;
+    padding: 70px 0px 20px 0px;
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px 100px;
+}
+
+.tutorial-links{
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px 0px;
+}
+.visit-flex{
+    box-sizing: border-box;
+    height: 200px;
+    width: 220px;
+    text-align: center;
+}
+
+.fso-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap:30px ;
+}
+.fso-i{
+    font-size: 35px;
+    color: white;
+}
+.fso-facebook:hover{
+    color:#3b5998;
+    transform: scale(1.6);
+}
+
+.fso-instagram:hover{
+background: #f09433; 
+background: -moz-linear-gradient(40deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(40deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(40deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+transform: scale(1.5);
+border-radius:12px;
+}
+
+.fso-twitter:hover{
+    color:#00acee;
+    transform: scale(1.6);
+}
+
+.fso-youtube:hover{
+    color: #c4302b;
+    transform: scale(1.6);
+}
+
+.fso-linkedin:hover{
+    color:#007bb5;
+    transform: scale(1.6);
+}
+
+.fso-github:hover{
+    
+    transform: scale(1.6);
+}
+
+
+
+
+@media screen and (max-width:750px) {
+    .footer-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 30px 0px !important;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    .footer-flex{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 60px;
+    }
+
+    .visit-grid{
+        box-sizing: border-box;
+        height: 200px;
+        width: 200px;
+    }
+}
