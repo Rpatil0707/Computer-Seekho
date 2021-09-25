@@ -1,0 +1,2 @@
+# Computer-Seekho
+A web based system developed using ReactJs ,Spring Restful API, Hibernate, Maven and MySQL. This website is developed for a computer institute that conducts various computer courses for all age groups. One part of the System provides information of each course and other is admin part. Admin part is restricted to office staff and that allows institute’s staff to log all inquiries, do follow-up for all inquiries, do registration and keep payment details of each student and each course. 
